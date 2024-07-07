@@ -1,0 +1,15 @@
+#sec7{
+    border: 2px solid red;
+    position: relative;
+    top: 2250px;
+}
+
+#ui{
+    border: 2px solid;
+    display: flex;
+}
+
+.grid1{
+    border: 2px solid brown;
+    width: 30%;
+}

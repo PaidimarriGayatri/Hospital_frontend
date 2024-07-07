@@ -1,0 +1,28 @@
+.lnav {
+    margin: 2% 2%;
+    padding: 1% 4%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links {
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+
+.link-nav {
+    text-decoration: none;
+    color: rgb(29, 28, 28);
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.hospital {
+    background-color: rgb(73, 180, 222);
+    font-size: 16px;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 5px;
+}

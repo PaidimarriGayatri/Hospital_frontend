@@ -1,0 +1,51 @@
+#sec3{
+    /* border: 2px solid red; */
+     position: absolute;
+     top: 650px;
+    /* margin-top: 520px; */
+    width: 100%;
+    height: 350px;
+}
+#sect{
+    width: 100%;
+    height: 55%;
+}
+.rowmargin{
+    display: flex;
+    margin: 0%;
+    flex-wrap: wrap;
+    gap: 0%;
+    margin-top: 0px;
+     height: 155%;
+}
+.key1{
+    /* border: 2px solid red; */
+    background-color: #03509e;
+    color: #FFF;
+    margin-bottom: 0px;
+    width: 25%;
+    height: 85%;
+}
+.key2{
+    /* border: 2px solid red; */
+    background-color: #0085bc;
+    color: #FFF;
+    margin-left: 0px;
+    width: 25%;
+    height: 85%;
+}
+.h5{
+    text-align: center;
+    font-size: 25px;
+    line-height: inherit;
+    font-weight: 600;
+    font-family: "mouse-500", Arial, Helvetica, sans-serif;
+}
+.p1{
+    text-align: center;
+    font-size: 15px;
+    line-height: inherit;
+    font-weight: 100;
+    
+    font-family: "mouse-500", Arial, Helvetica, sans-serif;;
+}

@@ -1,0 +1,65 @@
+body {
+    /* background-image: url("../MainPage/Images/"); */
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 700px;
+    margin: 50px auto;
+    background-color: rgba(214, 211, 211, 0.3);
+    padding: 20px;
+    height: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 70px rgba(67, 182, 228, 0.511);
+}
+
+
+
+label {
+    display: block;
+    /* color: white; */
+    width: 120px;
+    /* margin-bottom: 5px; */
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+    
+}
+
+.form-group {
+    display: flex;
+    font-size: 17px;
+    font-weight: 500;
+    align-items: center;
+    gap: 20px;
+}
+
+#form {
+    /* display: flex; */
+    gap: 50px;
+}

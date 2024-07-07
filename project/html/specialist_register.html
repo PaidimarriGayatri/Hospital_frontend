@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specialist Registration</title>
+    <link rel="stylesheet" href="../css/specialist_register.css">
+</head>
+
+<body>
+    <div id="main">
+        <form class="form" id="registrationform">
+            <p class="title">Specialist Register </p>
+            <p class="message">Signup now and get full access to our app. </p>
+            <div id="errorMessage" style="color: red;"></div>
+            <div class="flex">
+                <label>
+                    <input class="input" type="text" placeholder="" required="" id="firstName" autocomplete="off">
+                    <span>Firstname<span class="star">*</span></span>
+                </label>
+
+                <label>
+                    <input class="input" type="text" placeholder="" required="" id="lastName" autocomplete="off">
+                    <span>Lastname <span class="star">*</span></span>
+                </label>
+            </div>
+
+            <label>
+                <input class="input" type="email" placeholder="" id="email" required="" autocomplete="off">
+                <span>Email<span class="star">*</span></span>
+            </label>
+
+            <label>
+                <input class="input" type="password" placeholder="" id="password" required="" id="password">
+                <span id="span">Password<span class="star">*</span></span>
+            </label>
+            <div id="passwordWrong" style="color: red;"></div>
+            <label>
+                <input class="input" type="password" placeholder="" id="cpassword">
+                <span id="cspan">Confirm password<span class="star">*</span></span>
+            </label>
+            <button class="submit">Submit</button>
+            <p class="signin">Already have an acount ? <a href="../html/specialist_login.html">Signin</a> </p>
+        </form>
+    </div>
+    <script src="../js/specialist_register.js"></script>
+</body>
+
+</html>

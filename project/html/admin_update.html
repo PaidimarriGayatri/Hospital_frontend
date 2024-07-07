@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin update</title>
+    <link rel="stylesheet" href="../css/admin_update.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>Admin Information Form</h2>
+        <form action="/submit" method="post">
+            <div class="form-group">
+                <label for="specialist_id">User ID:</label>
+                <input type="text" id="specialist_id" name="specialist_id" required readonly>
+            </div>
+            <div class="form-group">
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" required>
+            </div>
+            <div class="form-group">
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone:</label>
+                <input type="text" id="phone" name="phone">
+            </div>
+            <div class="form-group">
+                <label for="specialization">Specialization:</label>
+                <input type="text" id="specialization" name="specialization">
+            </div>
+            <div class="form-group">
+                <label for="experience">Experience:</label>
+                <input type="text" id="experience" name="experience">
+            </div>
+            <div class="form-group">
+                <label for="gender">Gender:</label>
+                <input type="text" id="gender" name="gender">
+            </div>
+            <div class="form-group">
+                <label for="age">Age:</label>
+                <input type="text" id="age" name="age">
+            </div>
+            <div class="form-group">
+                <label for="fees">Fees:</label>
+                <input type="text" id="fees" name="fees">
+            </div>
+            <div class="form-group">
+                <label for="address_id">Address_ID:</label>
+                <input type="text" id="address_id" name="address_id" readonly>
+            </div>
+            <div class="form-group">
+                <label for="door_No">Door_No:</label>
+                <input type="text" id="door_No" name="door_No">
+            </div>
+            <div class="form-group">
+                <label for="street">Street:</label>
+                <input type="text" id="street" name="street">
+            </div>
+            <div class="form-group">
+                <label for="city">City:</label>
+                <input type="text" id="city" name="city">
+            </div>
+            <div class="form-group">
+                <label for="state">State:</label>
+                <input type="text" id="state" name="state">
+            </div>
+            <div class="form-group">
+                <label for="pincode">Pincode:</label>
+                <input type="text" id="pincode" name="pincode">
+            </div>
+            <input type="submit" class="submit" value="Update">
+        </form>
+    </div>
+    <script src="../js/admin_update.js"></script>
+</body>
+
+</html>
